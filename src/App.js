@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-bootstrap/Button';
+import NavbarComp from './Components/NavbarComp';
+import portfolio from './img/vivek.jpg'
+import img from './img/dev.jpg'
 
-function App() {
+
+
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavbarComp/>
+      <h1 className="btn-info">Hello, My name is Vivek Khambra</h1>
+      <p>I am a ICT graduate and Looking for the opportunity as a Front-end Developer</p>
+      <img src={portfolio} alt="" />
+      <img src={img} alt="" />
     </div>
   );
 }
