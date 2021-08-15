@@ -1,9 +1,10 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-bootstrap/Button';
-import NavbarComp from './Components/NavbarComp';
+import Navbar from './Components/Navbar';
 import portfolio from './img/vivek.jpg'
 import img from './img/dev.jpg'
+import { Hero } from './Components/Hero';
 
 
 
